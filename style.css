@@ -97,3 +97,11 @@ button:hover span{
 button:hover {
     border: none;
 }
+#button2{
+  position:absolute;
+  margin-top: 20%;
+  margin-left: -6%;
+  text-align: center;
+
+}
+

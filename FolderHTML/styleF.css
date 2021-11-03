@@ -19,9 +19,3 @@
     justify-content: space-between;
     color: white;
 }
-.logo{
-    width: 100px;
-    cursor: pointer;
-    border-radius: 200px;
-    border: 2px solid rgb(0, 128, 128);
-}

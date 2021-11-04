@@ -71,4 +71,37 @@
     text-transform: uppercase;
     font-size: medium;
 }
+.contentFE{
+    margin: 0;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 45%;
+    background-color: solid rgb(35, 120, 92);
+    width: 200px;
+    height: 200px;
 
+}
+#slika{
+    width: 300px;
+    border-radius: 20%;
+    margin: 0%;
+    position: relative;
+    left: 300px;
+    top: 70px;
+}
+#slika2{
+    width: 450px;
+    border-radius: 10%;
+    margin: 0%;
+    position: relative;
+    left: 350px;
+    top: 70px;
+}
+#slika3{
+    width: 450px;
+    height: 250px;
+    border-radius: 10%;
+    margin: 0%;
+    position: relative;
+    left: 400px;
+    top: 70px;
+}

@@ -18,7 +18,7 @@
 #appcontainer {
     position: relative;
     background-color: white(255, 0, 0, 0.7);
-    width: 100%; height:200%;
+    width: 100%; height:300%;
 }
 .navbar{
     width: 85%;
@@ -72,13 +72,12 @@
     font-size: medium;
 }
 .contentFE{
-    margin: 0;
-    border: 5px solid rgb(255, 255, 255);
-    border-radius: 45%;
-    background-color: solid rgb(35, 120, 92);
-    width: 200px;
-    height: 200px;
-
+   margin: 0%;
+   width: 90%;
+   height: 60%;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 100px;
 }
 #slika{
     width: 300px;
@@ -104,4 +103,111 @@
     position: relative;
     left: 400px;
     top: 70px;
+    
 }
+#fontFE{
+    text-transform: uppercase;
+    color: white;
+    
+}
+.contentFE h1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 45px;
+    text-align: left;
+    font-family: cursive;
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-top: 200px;
+    letter-spacing: 1px;
+}
+.contentFE p{
+    color: white;
+    position:absolute;
+    top: 550px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 200px;
+    font-family: cursive;
+    font-size: x-large;
+}
+#imgfront {
+    color: white;
+    position: relative;
+    top: -950px;
+    left: 70px;
+    align-items: center;
+    border-width: 20px;
+    background-color: rgb(35, 120, 92, 0.295);
+    border: 10px solid rgb(35, 120, 92);
+    border-radius: 60px;
+}
+#imgfront3 {
+    width: 400px;
+    color: white;
+    position: relative;
+    top: -950px;
+    left: 70px;
+    align-items: center;
+    border-width: 20px;
+    background-color: rgb(35, 120, 92, 0.295);
+    border: 10px solid rgb(35, 120, 92);
+    border-radius: 60px;
+}
+#imgfront2 {
+    width: 480px;
+    color: white;
+    position: relative;
+    top: -33%;
+    left: 15%;
+    align-items: center;
+    border-width: 20px;
+    background-color: rgb(35, 120, 92, 0.295);
+    border: 10px solid rgb(35, 120, 92);
+    border-radius: 60px;
+}
+.kontentDVA{
+    position: relative;
+    top: -700px;
+    margin: 0%;
+    width: 90%;
+    height: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+.kontentDVA h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+}
+.kontentDVA p{
+    color: rgb(248, 20, 20);
+    text-align: left;
+    margin: 80px;
+}
+.kontentB{
+    pad: 10%;
+}
+.kontentB h1{
+    color: white;
+}
+.kontent2{
+    margin: 0%;
+    width: 90%;
+    height: -30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+ }
+ .kontent2 p{
+     text-transform: uppercase;
+     font-size: x-large;
+     color: white;
+     position: relative;
+     width: 400px;
+     top: -600px;
+     left: 20px;
+ }

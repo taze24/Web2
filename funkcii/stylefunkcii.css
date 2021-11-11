@@ -1,0 +1,70 @@
+*{
+    margin: auto;
+    padding: 0%;
+    font-family:sans-serif;
+}
+.banner{
+    height: 100%;
+    margin:0px;
+    background-image: linear-gradient(rgb(0, 255, 255,0.11),rgb(0, 255, 255,0.11)),url(slikiFunk/background4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.banner h1{
+    font-size: 80px;
+
+}
+#appcontainer {
+    position: relative;
+    background-color: white(255, 0, 0, 0.7);
+    width: 100%; height:300%;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.kontentFunk{
+    position: relative;
+    left:25%;
+    align-items: center;
+    width: 600px;
+    margin: 0%;
+    padding: 0px;
+    color: white;
+    border: 10px solid white;
+    border-radius: 60px;
+    text-align: center;
+
+}
+#buttonFunk{
+    color: violet;
+    outline-style: double;
+    transform-style: initial;
+    font-family: fantasy;
+    font-size: medium;
+    padding: 50px;
+    border-radius: 70px;
+    background-color: rgb(0, 255, 255,0.11);
+}
+#buttontext{
+    color: lawngreen;
+}
+.buttonholder{
+    color: red;
+    border: 10px solid red;
+    border-radius: 60px;
+    margin: 10px;
+    padding: 70px;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family: fantasy;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.308);
+}

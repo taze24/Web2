@@ -29,6 +29,14 @@
     justify-content: space-between;
     color: white;
 }
+.navbar h1{
+    position: relative;
+}
+.navbar a{
+    position: relative;
+    right: -300px;
+    color: white;
+}
 .kontent{
     color: white;
     margin: 0%;
@@ -166,6 +174,22 @@
     background-color: rgb(35, 120, 92, 0.295);
     border: 10px solid rgb(35, 120, 92);
     border-radius: 60px;
+}
+#DSslika1{
+    position: absolute;
+    width: 300px;
+    top: 700px;
+    left: auto;
+    border-radius: 50px;
+    border: 10px solid rgb(35, 120, 92);
+}
+#DSslika2{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+    width: 300px;
+    border-radius: 50px;
+    border: 10px solid rgb(35, 120, 92);
 }
 .kontentDVA{
     position: relative;

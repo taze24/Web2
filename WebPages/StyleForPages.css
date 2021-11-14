@@ -6,7 +6,7 @@
 .banner{
     height: 100%;
     margin:0px;
-    background-image: linear-gradient(rgb(0, 255, 255,0.11),rgb(0, 255, 255,0.11)),url(sliki2/background4.jpg);
+    background-image: linear-gradient(rgb(0, 255, 255,0.11),rgb(0, 255, 255,0.11)),url(../images/background4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -29,12 +29,7 @@
     justify-content: space-between;
     color: white;
 }
-.navbar h1{
-    position: relative;
-}
 .navbar a{
-    position: relative;
-    right: -300px;
     color: white;
 }
 .kontent{

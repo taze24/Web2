@@ -1,10 +1,11 @@
+/* universal css */
 *{
     margin: auto;
     padding: 0%;
     font-family:sans-serif;
 }
 .banner{
-    height: 100%;
+    height: 200%;
     margin:0px;
     background-image: linear-gradient(rgb(0, 255, 255,0.11),rgb(0, 255, 255,0.11)),url(../images/background4.jpg);
     background-size: cover;
@@ -32,6 +33,9 @@
 .navbar a{
     color: white;
 }
+/* universal ↑↑↑ */
+
+/* full stack css */
 .kontent{
     color: white;
     margin: 0%;
@@ -108,6 +112,9 @@
     top: 70px;
     
 }
+/* full stack ↑↑↑ */
+
+/* front end start */
 #fontFE{
     text-transform: uppercase;
     color: white;
@@ -170,6 +177,9 @@
     border: 10px solid rgb(35, 120, 92);
     border-radius: 60px;
 }
+/* FrontEnd css ↑↑↑ */
+
+/* DataScience */
 #DSslika1{
     position: absolute;
     width: 300px;
@@ -230,3 +240,66 @@
      top: -600px;
      left: 20px;
  }
+ /* DataScience ↑↑↑ */
+ /* Design */
+ .DesignBox1 {
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: green;
+    width: 500px;
+    height: 700px;
+   
+ }
+ .DesignBox2 {
+    position:absolute;
+    top: 162px;
+    left: 550px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: red;
+    width: 500px;
+    height: 700px;
+}
+.DesignBox3 {
+    position: absolute;
+    top: 162px;
+    left: 1100px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: blue;
+    width: 500px;
+    height: 700px;
+    overflow: scroll;
+}
+.DBElement2{
+    position: sticky;
+    top: 10px;
+    left: -70px;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    width: 100px;
+}
+.DBElement1{
+    text-align: center;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 60px;
+    background: lightblue;
+    width: 50px;
+    height: 50px;
+    position: sticky;
+    top: 5px;
+    left: 10px;
+}
+#ButtonDesign{
+    background-color: aqua;
+}
+#InputDesign{
+    background-color:rgb(35, 120, 92);
+}
+

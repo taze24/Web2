@@ -3,14 +3,19 @@ let password;
 let inputpassword;
 let inputusername;
 function FunkPWinput() {
-    username = document.getElementById("Username").value;
-    password = document.getElementById("password").value;
-    alert("Successfully Submitted \nYour Username and Password are: "+username+" "+password)
+    if ((password == "") && (username == "")) {
+        alert("Empty");
+    }
+    else {
+        username = document.getElementById("FUNKusername").value;
+        password = document.getElementById("FUNKpassword").value;
+        alert("Successfully Submitted \nYour Username is: " + username + "\nYour Password is: " + password)
+    }
 }
 function FunkPassword() {
-    inputpassword = (document.getElementById("passwordid").value);
-    inputusername = (document.getElementById("usernameid").value);
-    if ((inputpassword == password) && (inputusername == username))
+    inputpassword = (document.getElementById("LOGINpasswordid").value);
+    inputusername = (document.getElementById("LOGINusernameid").value);
+    if ((inputpassword == "viktortaze") && (inputusername == "taze24"))
         alert("The entered password and username are correct!");
     else
         alert("The entered password and username are incorrect!");
